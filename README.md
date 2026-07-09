@@ -1,27 +1,27 @@
 # 💊 Pharmacy E-Commerce Website
 
-موقع **متجر إلكتروني لبيع الأدوية والمنتجات الصحية** بتصميم عصري واحترافي يتيح للعملاء تصفح المنتجات وطلبها بسهولة وأمان.
+An **online pharmacy store website** for selling medicines and healthcare products, featuring a modern and professional design that allows customers to browse products and place orders easily and securely.
 
 ---
 
-## 📌 نبذة عن المشروع
+## 📌 Project Overview
 
-هذا المشروع عبارة عن **موقع إلكتروني لبيع الأدوية والمستلزمات الصحية** تم تصميمه وبرمجته لتوفير تجربة تسوق سهلة وسريعة، مع عرض المنتجات الطبية بشكل منظم يساعد العملاء في الوصول إلى احتياجاتهم بكل سهولة.
-
----
-
-## 🎯 أهداف الموقع
-
-* بيع الأدوية والمنتجات الصحية عبر الإنترنت
-* تسهيل وصول العملاء للمنتجات المطلوبة
-* عرض المنتجات بشكل واضح ومنظم
-* توفير تجربة شراء سهلة وآمنة
-* دعم الطلب السريع والتواصل المباشر
-* تصميم متجاوب مع جميع الأجهزة
+This project is an **e-commerce website for selling medicines and healthcare supplies**. It was designed and developed to provide a fast and easy shopping experience, with organized medical product displays that help customers find their needs effortlessly.
 
 ---
 
-## 💻 التقنيات المستخدمة
+## 🎯 Website Goals
+
+* Sell medicines and healthcare products online
+* Make it easier for customers to access required products
+* Display products clearly and in an organized way
+* Provide an easy and secure shopping experience
+* Support fast ordering and direct communication
+* Create a responsive design for all devices
+
+---
+
+## 💻 Technologies Used
 
 * HTML
 * CSS
@@ -29,43 +29,42 @@
 
 ---
 
-## 💊 أقسام المتجر
+## 💊 Store Sections
 
-* الأدوية العامة
-* الفيتامينات والمكملات الغذائية
-
-
----
-
-## 🛒 المميزات
-
-* متجر إلكتروني احترافي وسهل الاستخدام
-* إمكانية تصفح المنتجات وشرائها بسهولة
-* تصميم عصري مناسب للمجال الطبي
-* متجاوب مع جميع الأجهزة (Responsive)
-* سرعة تحميل وأداء ممتاز
-* واجهة مستخدم مريحة وسلسة
-* نظام طلب سريع وتواصل مباشر
+* General Medicines
+* Vitamins and Dietary Supplements
 
 ---
 
-## 👨‍💻 البرمجة والتصميم
+## 🛒 Features
 
-**محمد مجيب بشر**
+* Professional and easy-to-use online store
+* Browse and purchase products easily
+* Modern design suitable for the medical field
+* Fully responsive design for all devices
+* Fast loading speed and excellent performance
+* Smooth and comfortable user interface
+* Quick ordering system and direct communication
 
 ---
 
-## 📞 التواصل
+## 👨‍💻 Development & Design
+
+**Mohammed Mojeeb Bishr**
+
+---
+
+## 📞 Contact
 
 * 📱 +967 772062777
 * 📱 +967 782807337
 
 ---
 
-## 🚀 طريقة التشغيل
+## 🚀 How to Run
 
-1. قم بتحميل المشروع
-2. افتح ملف `index.html`
-3. ابدأ بتصفح المنتجات وإتمام الطلبات
+1. Download the project
+2. Open the `index.html` file
+3. Start browsing products and placing orders
 
 ---
