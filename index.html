@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صيدلية باريس | وجهتك الصحية الأولى</title>
+    <!-- Google Fonts: Tajawal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-hand-holding-medical"></i>
+                <span>صيدلية باريس</span>
+            </div>
+            <div class="nav-actions">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="ابحث عن دواء...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <button id="theme-toggle" class="icon-btn" title="تبديل الوضع">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="favorites-btn" class="icon-btn" title="المفضلة">
+                    <i class="fas fa-heart"></i>
+                    <span class="badge" id="fav-count">0</span>
+                </button>
+                <button id="cart-btn" class="icon-btn" title="السلة">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="badge" id="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>رعايتكم الصحية هي أولويتنا</h1>
+                <p>احصل على أدويتك ومنتجات العناية الشخصية بأعلى جودة وأفضل سعر، تصلك أينما كنت.</p>
+                <div class="hero-btns">
+                    <a href="#categories" class="btn btn-outline">تصفح الفئات</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <h2 class="section-title">تسوق حسب الفئة</h2>
+            <div class="category-tabs">
+                <button class="cat-tab active" data-category="all">الكل</button>
+                <button class="cat-tab" data-category="مسكنات">مسكنات</button>
+                <button class="cat-tab" data-category="فيتامينات">فيتامينات</button>
+                <button class="cat-tab" data-category="العناية الشخصية">العناية الشخصية</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <main id="products" class="products-section">
+        <div class="container">
+            <div id="products-grid" class="products-grid">
+                <!-- Skeleton Loading will be here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Cart Sidebar -->
+    <div id="cart-sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h3>سلة المشتريات</h3>
+            <button id="close-cart" class="close-btn">&times;</button>
+        </div>
+        <div id="cart-items" class="sidebar-content">
+            <!-- Cart items will be injected here -->
+        </div>
+        <div class="sidebar-footer">
+            <div class="total-price">
+                <span>الإجمالي:</span>
+                <span id="cart-total">0.00</span> ر.س
+            </div>
+            <button class="btn btn-primary btn-block">إتمام الشراء</button>
+        </div>
+    </div>
+
+    <!-- Product Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <button id="close-modal" class="close-btn">&times;</button>
+            <div id="modal-body" class="modal-body">
+                <!-- Product details will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 صيدلية باريس . جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
